@@ -1,0 +1,14 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+torch>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+opencc>=1.1.0
+scikit-learn>=1.3.0
+
+# Progress bar
+tqdm>=4.65.0
+
+# Optional: For Google Colab environment
+# google-colab

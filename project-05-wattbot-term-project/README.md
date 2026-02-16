@@ -1,15 +1,21 @@
-# Project 05: WattBot Term Project
+# Term Project: NLP_WattBot 2025_AttentionPlease
 
-## Overview
+## Objective
 
-This folder packages the term-project deliverables for the WattBot concept.
+Deliver and document the final NLP term project artifact for the WattBot concept.
 
-## Included Assets
+## Deliverables
 
-- `report.pdf`: Final report artifact
-- `metadata.csv`: Supporting metadata file
+- `report.pdf`: final project report
 
 ## Notes
 
-This folder is structured as a standalone mini-project entry in the portfolio repository.
+- The source folder used for this refresh (`/Users/chengpeici/Desktop/NLP`) includes the report PDF.
+- The PPTX variant referenced historically was not present in this latest source folder snapshot.
+
+## Suggested Next Engineering Additions
+
+- Add system architecture diagram and component contracts.
+- Add reproducible runbook (data prep, training/inference, evaluation).
+- Add benchmark summary table and ablation notes.
 
