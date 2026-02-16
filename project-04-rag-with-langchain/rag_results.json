@@ -1,0 +1,752 @@
+[
+  {
+    "Query": "How much of a day do cats spend sleeping?",
+    "Ground_Truth": "Two thirds",
+    "Prediction": "Cats sleep 16 to 18 hours per day."
+  },
+  {
+    "Query": "Why don't cats have a sweet tooth?",
+    "Ground_Truth": "Taste mutation",
+    "Prediction": "Unknown"
+  },
+  {
+    "Query": "How do cats keep their heads when chasing prey?",
+    "Ground_Truth": "Head level",
+    "Prediction": "Cats use their bodies to squeeze through openings."
+  },
+  {
+    "Query": "What is the technical term for a cat's hairball?",
+    "Ground_Truth": "Bezoar",
+    "Prediction": "Bezoar."
+  },
+  {
+    "Query": "What is a group of cats called?",
+    "Ground_Truth": "Clowder",
+    "Prediction": "Clowder."
+  },
+  {
+    "Query": "Which paw do most female cats prefer?",
+    "Ground_Truth": "Right paw",
+    "Prediction": "Female cats tend to be right-pawed."
+  },
+  {
+    "Query": "Why can't cats climb down trees head first?",
+    "Ground_Truth": "Claw direction",
+    "Prediction": "Cats lack a true collarbone, but cannot climb down trees head first."
+  },
+  {
+    "Query": "How many sounds do cats make?",
+    "Ground_Truth": "About 100",
+    "Prediction": "Cats make about 100 sounds."
+  },
+  {
+    "Query": "Which animal's brain is most similar to a human's: cat or dog?",
+    "Ground_Truth": "Cat",
+    "Prediction": "cat"
+  },
+  {
+    "Query": "How many domestic cats exist worldwide?",
+    "Ground_Truth": "500 million",
+    "Prediction": "There are over 500 million domestic cats worldwide."
+  },
+  {
+    "Query": "Where was the oldest known pet cat found?",
+    "Ground_Truth": "Cyprus",
+    "Prediction": "Cyprus"
+  },
+  {
+    "Query": "What resulted from burning cats during the Spanish Inquisition?",
+    "Ground_Truth": "More rats",
+    "Prediction": "Thousands of cats burned."
+  },
+  {
+    "Query": "What happened to cats on St. John's Day in the Middle Ages?",
+    "Ground_Truth": "Burned",
+    "Prediction": "Cats were stuffed into sacks then tossed into bonfires."
+  },
+  {
+    "Query": "Which pet is more popular in North America, cats or dogs?",
+    "Ground_Truth": "Cats",
+    "Prediction": "Cats are more popular pets in North America."
+  },
+  {
+    "Query": "What was the name of the first cat in space?",
+    "Ground_Truth": "Felicette",
+    "Prediction": "Felicette"
+  },
+  {
+    "Query": "What does the Latin word catus mean?",
+    "Ground_Truth": "Domestic cat",
+    "Prediction": "catus"
+  },
+  {
+    "Query": "What sound might \"puss\" imitate?",
+    "Ground_Truth": "Hissing",
+    "Prediction": "Hissing"
+  },
+  {
+    "Query": "How many people are bitten by cats annually in the U.S.?",
+    "Ground_Truth": "40,000",
+    "Prediction": "40,000"
+  },
+  {
+    "Query": "According to legend, how did God create the first cat on Noah's ark?",
+    "Ground_Truth": "Lion sneeze",
+    "Prediction": "God made the lion sneeze, and out popped a cat."
+  },
+  {
+    "Query": "Whose hearing is better: a cat's or a dog's?",
+    "Ground_Truth": "Cat's",
+    "Prediction": "Cat's hearing is better than a dog's."
+  },
+  {
+    "Query": "What is a cat's top running speed?",
+    "Ground_Truth": "31 mph",
+    "Prediction": "Two members of the cat family are distinct from all others:"
+  },
+  {
+    "Query": "How high can a cat jump relative to its height?",
+    "Ground_Truth": "Five times",
+    "Prediction": "7 times"
+  },
+  {
+    "Query": "What helps cats survive long falls?",
+    "Ground_Truth": "Righting reflex",
+    "Prediction": "Righting reflex."
+  },
+  {
+    "Query": "Why do cats rub against people?",
+    "Ground_Truth": "Mark territory",
+    "Prediction": "Cats rub to mark territory with scent glands."
+  },
+  {
+    "Query": "How many times per second might a cat's larynx open and close while purring?",
+    "Ground_Truth": "Twenty five",
+    "Prediction": "Most veterinarians believe that 25 times per second."
+  },
+  {
+    "Query": "How did Egyptians mourn a family cat's death?",
+    "Ground_Truth": "Shaved eyebrows",
+    "Prediction": "Family members shaved off their eyebrows and held funerals with wine and beating breasts."
+  },
+  {
+    "Query": "What were 300,000 mummified cats once used for?",
+    "Ground_Truth": "Fertilizer",
+    "Prediction": "Mummified cats were used as fertilizer."
+  },
+  {
+    "Query": "What is the typical size of a cat's litter?",
+    "Ground_Truth": "One to nine",
+    "Prediction": "13 kittens"
+  },
+  {
+    "Query": "What was the punishment for smuggling cats from ancient Egypt?",
+    "Ground_Truth": "Death",
+    "Prediction": "Smuggling a cat out of ancient Egypt was punishable by death."
+  },
+  {
+    "Query": "What is the name of the earliest ancestor of modern cats?",
+    "Ground_Truth": "Proailurus",
+    "Prediction": "Proailurus"
+  },
+  {
+    "Query": "What is the biggest wildcat today?",
+    "Ground_Truth": "Siberian tiger",
+    "Prediction": "Siberian Tiger"
+  },
+  {
+    "Query": "What is the smallest wildcat today?",
+    "Ground_Truth": "Black-footed cat",
+    "Prediction": "Black-footed cat"
+  },
+  {
+    "Query": "Which goddess had a cat's head in Egyptian mythology?",
+    "Ground_Truth": "Bast",
+    "Prediction": "Bast"
+  },
+  {
+    "Query": "What letter appears on tabby cats according to legend?",
+    "Ground_Truth": "M",
+    "Prediction": "M"
+  },
+  {
+    "Query": "In Britain, what are black cats considered?",
+    "Ground_Truth": "Lucky",
+    "Prediction": "In Britain, they are considered lucky."
+  },
+  {
+    "Query": "What is the most popular pedigreed cat?",
+    "Ground_Truth": "Persian",
+    "Prediction": "Persian"
+  },
+  {
+    "Query": "What is the smallest pedigreed cat?",
+    "Ground_Truth": "Singapura",
+    "Prediction": "Small."
+  },
+  {
+    "Query": "Why do some Siamese cats appear cross-eyed?",
+    "Ground_Truth": "Nerve wiring",
+    "Prediction": "Some cats appear cross-eyed due to nerve connection issues between brain left and right sides and their eye nerves."
+  },
+  {
+    "Query": "Where does the word \"tabby\" originate?",
+    "Ground_Truth": "Attabiyah",
+    "Prediction": "Attabiyah, Baghdad, Iraq."
+  },
+  {
+    "Query": "Which breed likes swimming?",
+    "Ground_Truth": "Turkish Van",
+    "Prediction": "Turkish Van"
+  },
+  {
+    "Query": "What is the oldest breed of cat?",
+    "Ground_Truth": "Egyptian Mau",
+    "Prediction": "The Egyptian Mau is the oldest breed of cat."
+  },
+  {
+    "Query": "How much did Little Nicky cost?",
+    "Ground_Truth": "50,000",
+    "Prediction": "$50,000"
+  },
+  {
+    "Query": "How many whiskers does a cat usually have on each side?",
+    "Ground_Truth": "About 12",
+    "Prediction": "12"
+  },
+  {
+    "Query": "What color does grass appear to cats?",
+    "Ground_Truth": "Red",
+    "Prediction": "Grass appears red to cats."
+  },
+  {
+    "Query": "Who became a black vampire cat in folklore?",
+    "Ground_Truth": "Lilith",
+    "Prediction": "Lilith"
+  },
+  {
+    "Query": "Which famous disappearing cat appears in Alice in Wonderland?",
+    "Ground_Truth": "Cheshire Cat",
+    "Prediction": "Cheshire Cat"
+  },
+  {
+    "Query": "In the original Cinderella, what was the fairy godmother?",
+    "Ground_Truth": "Cat",
+    "Prediction": "Fairy godmother"
+  },
+  {
+    "Query": "What did cats in Holland's Moscow embassy detect?",
+    "Ground_Truth": "Microphones",
+    "Prediction": "Microphones"
+  },
+  {
+    "Query": "What are the tufts of hair in a cat's ears called?",
+    "Ground_Truth": "Ear furnishings",
+    "Prediction": "Ear furnishings."
+  },
+  {
+    "Query": "What is a cat's homing ability called?",
+    "Ground_Truth": "Psi-traveling",
+    "Prediction": "psi-traveling"
+  },
+  {
+    "Query": "Who invented the cat flap?",
+    "Ground_Truth": "Newton",
+    "Prediction": "Isaac Newton"
+  },
+  {
+    "Query": "Where does Kopi Luwak coffee come from?",
+    "Ground_Truth": "Indonesia",
+    "Prediction": "Indonesia"
+  },
+  {
+    "Query": "Why can't a cat chew large food chunks?",
+    "Ground_Truth": "Jaw motion",
+    "Prediction": "Cats must eat fat-rich diet."
+  },
+  {
+    "Query": "Who do cats mostly meow at?",
+    "Ground_Truth": "Humans",
+    "Prediction": "Cats mostly meow at humans."
+  },
+  {
+    "Query": "How many vertebrae can a cat have?",
+    "Ground_Truth": "Up to 53",
+    "Prediction": "53"
+  },
+  {
+    "Query": "What fraction of cat owners think cats read minds?",
+    "Ground_Truth": "One third",
+    "Prediction": "Approximately 1/3"
+  },
+  {
+    "Query": "Which big cat cannot sheath its claws?",
+    "Ground_Truth": "Cheetah",
+    "Prediction": "Cheetahs do not have retractable claws on their back paws."
+  },
+  {
+    "Query": "What makes clouded leopards and cheetahs distinct?",
+    "Ground_Truth": "Unique traits",
+    "Prediction": "Clouded leopard and cheetah are distinct due to different sounds, behavior, and physical characteristics."
+  },
+  {
+    "Query": "What is a cat lover called?",
+    "Ground_Truth": "Ailurophilia",
+    "Prediction": "Ailurophilia"
+  },
+  {
+    "Query": "In Japan, what can cats become when they die?",
+    "Ground_Truth": "Super spirits",
+    "Prediction": "Japanese super spirits."
+  },
+  {
+    "Query": "When did long-haired cats become fashionable?",
+    "Ground_Truth": "100 years ago",
+    "Prediction": "The first cat show was organized in 1871."
+  },
+  {
+    "Query": "How many muscles control a cat's outer ear?",
+    "Ground_Truth": "Thirty two",
+    "Prediction": "32"
+  },
+  {
+    "Query": "When is a growth hormone released in kittens?",
+    "Ground_Truth": "During sleep",
+    "Prediction": "Growth hormone is released during sleep."
+  },
+  {
+    "Query": "How many hairs per square inch do cats have?",
+    "Ground_Truth": "130,000",
+    "Prediction": "130,000"
+  },
+  {
+    "Query": "How much did Himmy weigh?",
+    "Ground_Truth": "47 pounds",
+    "Prediction": "47 pounds"
+  },
+  {
+    "Query": "How old was Crème Puff at death?",
+    "Ground_Truth": "Thirty eight",
+    "Prediction": "Sixty-eight years old"
+  },
+  {
+    "Query": "How much did Tinker Toy weigh?",
+    "Ground_Truth": "One pound",
+    "Prediction": "Tinker Toy weighed 1 pound, 6 ounces."
+  },
+  {
+    "Query": "What was Mr. Pebbles' weight?",
+    "Ground_Truth": "Three pounds",
+    "Prediction": "3 lbs (1.3 k)"
+  },
+  {
+    "Query": "Which cat caught nearly 30,000 mice?",
+    "Ground_Truth": "Towser",
+    "Prediction": "Towser"
+  },
+  {
+    "Query": "When were cats introduced into the Americas?",
+    "Ground_Truth": "1750s",
+    "Prediction": "In the Americas to control pests around 1750s."
+  },
+  {
+    "Query": "When was the first cat show held?",
+    "Ground_Truth": "1871",
+    "Prediction": "The first cat show was in 1871 in London."
+  },
+  {
+    "Query": "Who was the first cartoon cat?",
+    "Ground_Truth": "Felix",
+    "Prediction": "Felix the Cat in 1919."
+  },
+  {
+    "Query": "What is a normal cat temperature in °F?",
+    "Ground_Truth": "100 to 103",
+    "Prediction": "100-102.5°F"
+  },
+  {
+    "Query": "How many bones does a cat have?",
+    "Ground_Truth": "230",
+    "Prediction": "230"
+  },
+  {
+    "Query": "What unique pattern does a cat's nose pad have?",
+    "Ground_Truth": "Fingerprint",
+    "Prediction": "Unique pattern, like human fingerprint."
+  },
+  {
+    "Query": "Up to what temperature can cats tolerate with water?",
+    "Ground_Truth": "133 °F",
+    "Prediction": "133 °F"
+  },
+  {
+    "Query": "Name one food toxic to cats.",
+    "Ground_Truth": "Onions",
+    "Prediction": "Onions and garlic."
+  },
+  {
+    "Query": "Which poll revealed in 2007 that both men and women were equally likely to own a cat?",
+    "Ground_Truth": "Gallup poll",
+    "Prediction": "Neither"
+  },
+  {
+    "Query": "How fast does a cat's heart beat?",
+    "Ground_Truth": "110 to 140",
+    "Prediction": "110-140 beats per minute."
+  },
+  {
+    "Query": "Where do cats sweat?",
+    "Ground_Truth": "Paws",
+    "Prediction": "Cats sweat through their paws."
+  },
+  {
+    "Query": "How many kittens can a pair of cats produce in 7 years?",
+    "Ground_Truth": "420,000",
+    "Prediction": "420,000"
+  },
+  {
+    "Query": "Which cat has proportionally the largest canines?",
+    "Ground_Truth": "Clouded leopard",
+    "Prediction": "Maine Coon cats have proportionally the largest canines."
+  },
+  {
+    "Query": "How much of their waking hours do cats spend cleaning?",
+    "Ground_Truth": "One third",
+    "Prediction": "Cats spend nearly 1/3 of their waking hours cleaning themselves."
+  },
+  {
+    "Query": "How many teeth do grown cats have?",
+    "Ground_Truth": "Thirty",
+    "Prediction": "30"
+  },
+  {
+    "Query": "Which cat had over 420 kittens?",
+    "Ground_Truth": "Dusty",
+    "Prediction": "Dusty."
+  },
+  {
+    "Query": "What is the largest cat breed?",
+    "Ground_Truth": "Ragdoll",
+    "Prediction": "The largest cat breed is Ragdoll."
+  },
+  {
+    "Query": "What can cats detect before humans?",
+    "Ground_Truth": "Tremors",
+    "Prediction": "Cats can detect earthquake tremors."
+  },
+  {
+    "Query": "Have cats undergone major changes in domestication?",
+    "Ground_Truth": "No",
+    "Prediction": "Cats have not undergone significant changes during their domestication process."
+  },
+  {
+    "Query": "What is a female cat called?",
+    "Ground_Truth": "Queen",
+    "Prediction": "Female cat is called a queen or a molly."
+  },
+  {
+    "Query": "What affects Siamese kitten color change?",
+    "Ground_Truth": "Temperature",
+    "Prediction": "Siamese kittens' points darken at higher temperatures."
+  },
+  {
+    "Query": "How many feral cats are in the U.S.?",
+    "Ground_Truth": "60 million",
+    "Prediction": "60 million"
+  },
+  {
+    "Query": "How old was Kitty when she gave birth at her oldest?",
+    "Ground_Truth": "Thirty",
+    "Prediction": "30"
+  },
+  {
+    "Query": "How far did Hamlet travel?",
+    "Ground_Truth": "373,000 miles",
+    "Prediction": "373,000 miles"
+  },
+  {
+    "Query": "What was the most expensive hybrid cat named?",
+    "Ground_Truth": "Zeus",
+    "Prediction": "Zeus"
+  },
+  {
+    "Query": "Who survived a fall from the 16th floor?",
+    "Ground_Truth": "Andy",
+    "Prediction": "Andy"
+  },
+  {
+    "Query": "Who was left £15 million?",
+    "Ground_Truth": "Blackie",
+    "Prediction": "Ben Rea"
+  },
+  {
+    "Query": "Why are back claws less sharp?",
+    "Ground_Truth": "Wear",
+    "Prediction": "Back claws aren't sharper than front due to flexibility and orientation."
+  },
+  {
+    "Query": "How many toes on each front paw?",
+    "Ground_Truth": "Five",
+    "Prediction": "Four"
+  },
+  {
+    "Query": "What is the term for extra toes on cats?",
+    "Ground_Truth": "Polydactyl",
+    "Prediction": "Extra toes on cats."
+  },
+  {
+    "Query": "What kind of coat do cats have?",
+    "Ground_Truth": "True fur",
+    "Prediction": "Cats have true fur."
+  },
+  {
+    "Query": "What color are kittens' eyes when they first open?",
+    "Ground_Truth": "Blue",
+    "Prediction": "Blue at first."
+  },
+  {
+    "Query": "Do most cats have eyelashes?",
+    "Ground_Truth": "No",
+    "Prediction": "Most cats have no eyelashes."
+  },
+  {
+    "Query": "What is a cat's inner-eyelid called?",
+    "Ground_Truth": "Nictitating membrane",
+    "Prediction": "Inner-eyelid or nictitating membrane."
+  },
+  {
+    "Query": "What can a cat not see directly?",
+    "Ground_Truth": "Under nose",
+    "Prediction": "A cat cannot see directly under its nose."
+  },
+  {
+    "Query": "What do large round pupils indicate in a cat?",
+    "Ground_Truth": "Fear",
+    "Prediction": "Narrow pupils indicate anger."
+  },
+  {
+    "Query": "Which colors can cats see?",
+    "Ground_Truth": "Blue green red",
+    "Prediction": "Cats can see red, green, and blue."
+  },
+  {
+    "Query": "What disability is common in white cats with blue eyes?",
+    "Ground_Truth": "Deafness",
+    "Prediction": "White cats with one blue eye are deaf only in the ear closest to the blue eye."
+  },
+  {
+    "Query": "What are white cats' ears prone to?",
+    "Ground_Truth": "Sunburn",
+    "Prediction": "White cats with ear skin cancer."
+  },
+  {
+    "Query": "How high can a cat jump relative to its height?",
+    "Ground_Truth": "Seven times",
+    "Prediction": "a cat can jump seven times higher than it is tall"
+  },
+  {
+    "Query": "What absorbs landing shocks in cats?",
+    "Ground_Truth": "Footpads",
+    "Prediction": "Cats' righting reflex."
+  },
+  {
+    "Query": "Why can cats squeeze through small spaces?",
+    "Ground_Truth": "No collarbone",
+    "Prediction": "Cats can fit through openings smaller than 1/3 of their head."
+  },
+  {
+    "Query": "How often might a female cat have kittens without control?",
+    "Ground_Truth": "Every four months",
+    "Prediction": "Seven times in ten years"
+  },
+  {
+    "Query": "How long is a cat pregnant?",
+    "Ground_Truth": "58 to 65 days",
+    "Prediction": "58-65 days"
+  },
+  {
+    "Query": "Who teaches kittens to use the litter box?",
+    "Ground_Truth": "Mother",
+    "Prediction": "Mother cats teach their kittens to use the litter box."
+  },
+  {
+    "Query": "What shapes a kitten's later personality?",
+    "Ground_Truth": "Early treatment",
+    "Prediction": "Early life shapes personality."
+  },
+  {
+    "Query": "Are cats social animals?",
+    "Ground_Truth": "Yes",
+    "Prediction": "Cats do not think they are little people, but they enjoy human companionship."
+  },
+  {
+    "Query": "What is the average lifespan of a domestic cat?",
+    "Ground_Truth": "Fourteen years",
+    "Prediction": "14"
+  },
+  {
+    "Query": "What does neutering do to lifespan?",
+    "Ground_Truth": "Extends years",
+    "Prediction": "Neutering extends its life span by two or three years."
+  },
+  {
+    "Query": "Do cats get cancer?",
+    "Ground_Truth": "Yes",
+    "Prediction": "Yes, many cats can be treated successfully."
+  },
+  {
+    "Query": "Can cats taste sweets?",
+    "Ground_Truth": "No",
+    "Prediction": "No."
+  },
+  {
+    "Query": "What must cats have in their diet?",
+    "Ground_Truth": "Fat",
+    "Prediction": "Foods that shouldn't be given to cats include onions, garlic, green tomatoes, raw potatoes, chocolate, grapes, and raisins."
+  },
+  {
+    "Query": "Name one houseplant poisonous to cats.",
+    "Ground_Truth": "Ivy",
+    "Prediction": "English Ivy"
+  },
+  {
+    "Query": "Name a substance poisonous to cats.",
+    "Ground_Truth": "Tylenol",
+    "Prediction": "Tylenol"
+  },
+  {
+    "Query": "What does cow's milk cause in many cats?",
+    "Ground_Truth": "Diarrhea",
+    "Prediction": "Cow's milk causes diarrhea."
+  },
+  {
+    "Query": "What is a cat food meal equal to in mice?",
+    "Ground_Truth": "Five mice",
+    "Prediction": "Five mice."
+  },
+  {
+    "Query": "How can cats get tapeworms?",
+    "Ground_Truth": "Eating fleas",
+    "Prediction": "Cats get tapeworms from eating infected fleas."
+  },
+  {
+    "Query": "What should you do if your cat catches a mouse?",
+    "Ground_Truth": "Take away",
+    "Prediction": "Take away the prize from it."
+  },
+  {
+    "Query": "What rare worm can cats contract?",
+    "Ground_Truth": "Heart worms",
+    "Prediction": "Canine heart worms."
+  },
+  {
+    "Query": "Which chromosome carries the orange coat gene?",
+    "Ground_Truth": "X",
+    "Prediction": "X sex chromosome."
+  },
+  {
+    "Query": "What is rare and sterile in male cats?",
+    "Ground_Truth": "Orange black",
+    "Prediction": "Male cat must have all or part of both female X chromosomes to have both orange and black coat colors and be fertile, making them extremely rare and often sterile."
+  },
+  {
+    "Query": "Do cats have AB blood groups?",
+    "Ground_Truth": "Yes",
+    "Prediction": "Cats have AB blood groups."
+  },
+  {
+    "Query": "What serious disease exists in cats?",
+    "Ground_Truth": "AIDS",
+    "Prediction": "Toxoplasmosis"
+  },
+  {
+    "Query": "What determines Siamese point color?",
+    "Ground_Truth": "Heat",
+    "Prediction": "Color change in Siamese cats depends on body temperature."
+  },
+  {
+    "Query": "Why are Siamese kittens born white?",
+    "Ground_Truth": "Uterus heat",
+    "Prediction": "Siamese kittens are born white due to heat-related color change."
+  },
+  {
+    "Query": "What are cat-allergic people actually reacting to?",
+    "Ground_Truth": "Saliva dander",
+    "Prediction": "Cat saliva or dander"
+  },
+  {
+    "Query": "Which cats produce the most allergen?",
+    "Ground_Truth": "Entire males",
+    "Prediction": "Male cats generate the most scent, making them a source of significant allergens for people."
+  },
+  {
+    "Query": "How do cats perceive humans?",
+    "Ground_Truth": "Big cats",
+    "Prediction": "Humans see and react differently to cats than they do to other animals."
+  },
+  {
+    "Query": "What dental issues are cats subject to?",
+    "Ground_Truth": "Gum disease",
+    "Prediction": "Cats are subject to gum disease and dental caries."
+  },
+  {
+    "Query": "What disease can pregnant women risk from cat feces?",
+    "Ground_Truth": "Toxoplasmosis",
+    "Prediction": "Toxoplasmosis"
+  },
+  {
+    "Query": "What is the ancestor of domestic cats?",
+    "Ground_Truth": "African Wildcat",
+    "Prediction": "Proailurus"
+  },
+  {
+    "Query": "What was the punishment for killing a cat in Egypt?",
+    "Ground_Truth": "Death",
+    "Prediction": "Killing a cat was punishable by death."
+  },
+  {
+    "Query": "What did Egyptians place in cat tombs?",
+    "Ground_Truth": "Embalmed mice",
+    "Prediction": "Cat mummies"
+  },
+  {
+    "Query": "What happened to cats in the Festival of Saint John?",
+    "Ground_Truth": "Burned",
+    "Prediction": "Cats were burned alive."
+  },
+  {
+    "Query": "When was the first cat show?",
+    "Ground_Truth": "1871",
+    "Prediction": "1871"
+  },
+  {
+    "Query": "How many distinct cat breeds exist today?",
+    "Ground_Truth": "About 100",
+    "Prediction": "100"
+  },
+  {
+    "Query": "What helps cats return home?",
+    "Ground_Truth": "Homing ability",
+    "Prediction": "Cats return home using magnetized cells in their brains."
+  },
+  {
+    "Query": "Why do cats bury their feces?",
+    "Ground_Truth": "Hide trails",
+    "Prediction": "Cats bury feces to cover trails from predators."
+  },
+  {
+    "Query": "How long do cats sleep per day?",
+    "Ground_Truth": "16 to 18 hours",
+    "Prediction": "Cats sleep 16-18 hours per day, typically 12 hours at most."
+  },
+  {
+    "Query": "What organ helps cats smell besides the nose?",
+    "Ground_Truth": "Jacobson's organ",
+    "Prediction": "Jacobson's organ"
+  },
+  {
+    "Query": "Why should tap water sit for 24 hours before giving it to a cat?",
+    "Ground_Truth": "Chlorine irritates nose",
+    "Prediction": "Tap water must sit for 24 hours before being given to cats."
+  }
+]
