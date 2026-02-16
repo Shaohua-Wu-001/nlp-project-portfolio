@@ -1,44 +1,38 @@
-# NLP Project Portfolio
+# NLP Independent Project Portfolio
 
-This repository packages five independent NLP mini-projects as a clean engineering portfolio.
+這個 repository 整理了 5 個彼此獨立的 NLP 專案。
 
 ## Projects
 
-| Project | Topic | Main Deliverables |
+| Folder | Project Focus | Deliverables |
 | --- | --- | --- |
-| `assignment-01-word-analogy` | Assignment 1: Word Analogy | Python pipeline, requirements, report |
-| `assignment-02-arithmetic-as-a-language` | Assignment 2: Arithmetic as a Language | PyTorch char-level sequence model, requirements, report |
-| `assignment-03-multi-output-learning` | Assignment 3: Multi-output Learning | BERT multi-task training script, requirements, report, specification |
-| `assignment-04-rag-with-langchain` | Assignment 4: Retrieval-Augmented Generation with LangChain | RAG pipeline, requirements, experiment outputs, report |
-| `project-05-wattbot-term-project` | Term Project: NLP_WattBot 2025_AttentionPlease | Final report |
+| `project-01-word-analogy` | Word Analogy and Embedding Analysis | pipeline code, requirements, report |
+| `project-02-arithmetic-as-language` | Arithmetic as a Language (character-level sequence modeling) | model code, requirements, report |
+| `project-03-multi-output-learning` | Multi-output Learning with shared BERT backbone | training code, requirements, report, specification |
+| `project-04-rag-with-langchain` | Retrieval-Augmented Generation QA system | RAG code, requirements, experiment outputs, report |
+| `project-05-wattbot` | WattBot final project package | final report |
 
-## Course Outcome Snapshot
+## How To Read This Repo
 
-- Assignment 1: `100 / 100`
-- Assignment 2: `96 / 100`
-- Assignment 3: score not included in source folder
-- Assignment 4: score not included in source folder
-- Term Project: grade metadata not included in source folder
+1. 先進入任一專案資料夾。
+2. 打開該專案的 `README.md`，裡面有更詳細的背景、方法、工程拆解。
+3. 依照 README 的 step-by-step 試做流程，自己一步一步重跑與調整。
 
-## Engineering Principles Used in This Packaging
+## Engineering Notes
 
-- `Source-of-truth first`: files were rebuilt only from `/Users/chengpeici/Desktop/NLP`.
-- `Anonymized artifact naming`: no school name, student ID, or homework-style labels in repository paths.
-- `Credential safety`: hardcoded Hugging Face token was removed from the RAG script and replaced by `HF_TOKEN` env usage.
-- `Reproducibility-friendly structure`: each project has an isolated README and dependency file.
+- 檔案來源以本機最新資料夾 `/Users/chengpeici/Desktop/NLP` 為準。
+- 專案路徑與公開敘述已做去識別化，不使用學校與學號標記。
+- `project-04-rag-with-langchain/rag_pipeline.py` 已移除硬編碼 Hugging Face token，改成讀取 `HF_TOKEN` 環境變數。
+- 多數腳本仍保留 Colab 風格命令（例如 `!pip`），若要本地化建議再拆成 CLI + module。
 
-## Repository Layout
+## Layout
 
 ```text
 .
-├── assignment-01-word-analogy
-├── assignment-02-arithmetic-as-a-language
-├── assignment-03-multi-output-learning
-├── assignment-04-rag-with-langchain
-└── project-05-wattbot-term-project
+├── project-01-word-analogy
+├── project-02-arithmetic-as-language
+├── project-03-multi-output-learning
+├── project-04-rag-with-langchain
+└── project-05-wattbot
 ```
 
-## Notes
-
-- Most scripts are Colab-exported and still contain notebook shell commands (`!pip`, `!wget`, `drive.mount`, etc.).
-- For production-grade local execution, convert notebook-magics into CLI/bootstrap scripts.
