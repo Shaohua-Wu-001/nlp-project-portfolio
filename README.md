@@ -1,6 +1,6 @@
 # NLP Independent Project Portfolio
 
-這個 repository 整理了 5 個彼此獨立的 NLP 專案。
+這個 repository 整理了 5 個過去關於自然語言處理(Natural Language Processing) 專案。
 
 ## Projects
 
@@ -17,13 +17,6 @@
 1. 先進入任一專案資料夾。
 2. 打開該專案的 `README.md`，裡面有更詳細的背景、方法、工程拆解。
 3. 依照 README 的 step-by-step 試做流程，自己一步一步重跑與調整。
-
-## Engineering Notes
-
-- 檔案來源以本機最新資料夾 `/Users/chengpeici/Desktop/NLP` 為準。
-- 專案路徑與公開敘述已做去識別化，不使用學校與學號標記。
-- `project-04-rag-with-langchain/rag_pipeline.py` 已移除硬編碼 Hugging Face token，改成讀取 `HF_TOKEN` 環境變數。
-- 多數腳本仍保留 Colab 風格命令（例如 `!pip`），若要本地化建議再拆成 CLI + module。
 
 ## Layout
 
