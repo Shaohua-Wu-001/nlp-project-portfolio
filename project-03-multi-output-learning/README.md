@@ -1,37 +1,39 @@
-# Project 03: Multi-output Learning
+# Project 03: Multi-Output Learning with BERT
 
-## 專案簡介
+## Overview
 
-使用單一 BERT backbone 同時做兩個任務：
+This project implements multi-task learning using a shared BERT backbone with two output heads: a regression head for semantic textual similarity (relatedness scoring) and a classification head for natural language inference (entailment judgment).
 
-- Regression：relatedness score
-- Classification：entailment judgment
+## Architecture
 
-## 內容檔案
+```
+                    ┌─── Regression Head ──→ Relatedness Score (Pearson)
+Input → BERT ──────┤
+                    └─── Classification Head ──→ Entailment Label (Accuracy)
+```
 
-- `multi_output_bert.py`
-- `requirements.txt`
-- `report.docx`
-- `specification.pdf`
+- **Shared Encoder**: Pretrained BERT with fine-tuning
+- **Loss Function**: `L = MSE(regression) + CrossEntropy(classification)`
+- **Checkpoint Selection**: Best combined score across both tasks
 
-## 訓練與評估
+## Usage
 
-- Shared encoder + dual heads
-- Loss = `MSE + CrossEntropy`
-- 指標：Pearson（回歸）+ Accuracy（分類）
-- 以 combined score 保存最佳 checkpoint
+```bash
+pip install -r requirements.txt
+python multi_output_bert.py
+```
 
-## Step-by-Step 自己嘗試
+## Files
 
-1. 先確認 dataloader 的 tokenization 與 label mapping 正確。
-2. 跑基準訓練，記錄每個 epoch 的 pearson / accuracy。
-3. 改變 loss 權重（例如 0.7/0.3, 0.5/0.5）觀察任務干擾。
-4. 比較不同 batch size / lr 對 combined score 的影響。
-5. 用最佳模型做 test，整理 failure case。
+| File | Description |
+|------|-------------|
+| `multi_output_bert.py` | Multi-task model, training loop, evaluation |
+| `requirements.txt` | Python dependencies |
+| `specification.pdf` | Task specification and requirements |
+| `report.docx` | Experimental results and analysis |
 
-## 更深入可做
+## Key Results
 
-- Dynamic loss weighting（uncertainty weighting / GradNorm）。
-- 增加 calibration 或 per-class F1 指標。
-- 補上可追蹤的 config + experiment logging。
-
+- Per-epoch Pearson correlation (regression) and accuracy (classification)
+- Loss weight sensitivity analysis (e.g., 0.7/0.3 vs. 0.5/0.5) and task interference effects
+- Impact of batch size and learning rate on combined score
