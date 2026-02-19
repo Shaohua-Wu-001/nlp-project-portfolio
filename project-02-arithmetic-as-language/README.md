@@ -1,33 +1,38 @@
 # Project 02: Arithmetic as a Language
 
-## 專案簡介
+## Overview
 
-把算術運算當成字元序列生成任務：模型讀到 `=` 後開始生成答案，直到 `<eos>`。
+This project frames arithmetic computation as a character-level sequence generation task. The model reads an arithmetic expression up to the `=` sign and autoregressively generates the result character by character until producing an `<eos>` token.
 
-## 內容檔案
+## Architecture
 
-- `arithmetic_sequence_model.py`
-- `requirements.txt`
-- `report.docx`
+```
+Input: "123+456="  →  Embedding  →  LSTM  →  LSTM  →  MLP  →  Output: "579<eos>"
+```
 
-## 模型設計重點
+- **Vocabulary**: All digits, operators, `=`, `<pad>`, `<eos>`
+- **Encoder**: Character embedding layer
+- **Decoder**: Stacked 2-layer LSTM with MLP output head
+- **Training**: Cross-entropy loss with gradient clipping
+- **Inference**: Autoregressive decoding with greedy search
 
-- Character vocabulary + `<pad>` / `<eos>`
-- `Embedding -> LSTM -> LSTM -> MLP`
-- Cross-entropy 訓練 + gradient clipping
-- 自回歸解碼做驗證
+## Usage
 
-## Step-by-Step 自己嘗試
+```bash
+pip install -r requirements.txt
+python arithmetic_sequence_model.py
+```
 
-1. 先檢查字典建立是否涵蓋所有運算符號與數字。
-2. 跑原始超參數，拿到初版 validation accuracy。
-3. 調整 `embed_dim` / `hidden_dim` / `lr` 比較收斂曲線。
-4. 檢查生成失敗樣本（長式子、負號、連續運算）。
-5. 重新設定資料切分或長度分桶，看是否提升穩定度。
+## Files
 
-## 更深入可做
+| File | Description |
+|------|-------------|
+| `arithmetic_sequence_model.py` | Model definition, training loop, and evaluation |
+| `requirements.txt` | Python dependencies |
+| `report.docx` | Detailed analysis of model behavior and failure cases |
 
-- 加入 teacher forcing ratio 控制。
-- 試 Transformer decoder 與 LSTM 的性能比較。
-- 增加 per-length/per-operator 的 error report。
+## Key Results
 
+- Validation accuracy across varying expression lengths and operator types
+- Error analysis on failure cases: long expressions, negative results, chained operations
+- Convergence comparison across different `embed_dim`, `hidden_dim`, and learning rate configurations
