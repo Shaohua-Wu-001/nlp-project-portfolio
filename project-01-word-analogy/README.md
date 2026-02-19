@@ -1,31 +1,33 @@
-# Project 01: Word Analogy
+# Project 01: Word Analogy and Embedding Analysis
 
-## 專案簡介
+## Overview
 
-這個專案聚焦在詞向量對 analogy 任務的表現，包含：
+This project evaluates word embedding models on the standard word analogy task. We compare pretrained GloVe vectors against a custom-trained Word2Vec model, analyzing performance on both semantic and syntactic analogy categories with t-SNE visualizations of learned representations.
 
-- 預訓練詞向量 baseline（GloVe）
-- 自行訓練 Word2Vec
-- 類比題 accuracy 分析（semantic / syntactic）
-- t-SNE 視覺化
+## Methodology
 
-## 內容檔案
+1. **Baseline** — Pretrained GloVe embeddings evaluated on the `questions-words` analogy dataset
+2. **Custom Training** — Word2Vec (Skip-gram) trained with configurable `vector_size`, `window`, and `min_count`
+3. **Evaluation** — Per-category accuracy breakdown across semantic and syntactic analogy types
+4. **Visualization** — t-SNE projections of embedding clusters (family, royalty, etc.)
 
-- `word_analogy_pipeline.py`
-- `requirements.txt`
-- `report.docx`
+## Usage
 
-## Step-by-Step 自己嘗試
+```bash
+pip install -r requirements.txt
+python word_analogy_pipeline.py
+```
 
-1. 先跑資料前處理，確認 `questions-words` 轉換正確。
-2. 跑 GloVe baseline，記錄 semantic / syntactic accuracy。
-3. 跑自訓練 Word2Vec 區塊，改不同 `vector_size`、`window`、`min_count`。
-4. 比較 baseline 與自訓練模型結果差異。
-5. 產生 t-SNE，觀察 family/royalty 等關係是否成群。
+## Files
 
-## 更深入可做
+| File | Description |
+|------|-------------|
+| `word_analogy_pipeline.py` | Full pipeline: data loading, training, evaluation, visualization |
+| `requirements.txt` | Python dependencies |
+| `report.docx` | Detailed analysis and results |
 
-- 加入多 seed 重複實驗，輸出平均與標準差。
-- 做 error taxonomy（OOV、詞形變化、語義偏移）。
-- 把 notebook 風格腳本拆成可重跑的模組化 pipeline。
+## Key Results
 
+- Semantic vs. syntactic accuracy comparison between GloVe and custom Word2Vec
+- t-SNE clusters showing meaningful groupings (e.g., family relations, verb tenses)
+- Analysis of failure modes: OOV tokens, morphological variation, semantic drift
