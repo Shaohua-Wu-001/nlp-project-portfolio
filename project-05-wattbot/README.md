@@ -1,21 +1,20 @@
 # Project 05: WattBot
 
-## 專案簡介
+## Overview
 
-這是期末專案的最終報告包，聚焦 WattBot 主題與完整成果展示。
+WattBot is a capstone project delivering an end-to-end question answering system. The project integrates retrieval, generation, and domain-specific strategies into a unified architecture. The full system design, methodology, evaluation, and results are documented in the accompanying report.
 
-## 內容檔案
+## Deliverables
 
-- `report.pdf`
+| File | Description |
+|------|-------------|
+| `report.pdf` | Complete project report — problem framing, system architecture, evaluation, and results |
 
-## Step-by-Step 自己嘗試
+## Report Contents
 
-1. 先閱讀報告中的 problem framing 與目標定義。
-2. 拆解系統設計為資料、模型、檢索、回覆策略四層。
-3. 逐段檢查每個模組的可替換方案與工程 trade-off。
-4. 整理你自己的改版路線圖（MVP -> v2 -> v3）。
+The report covers:
 
-## 建議補件
-
-- 若後續補上投影片與 demo，建議新增 `slides/`、`assets/`、`demo/` 目錄。
-
+1. **Problem Framing** — Task definition, objectives, and evaluation criteria
+2. **System Architecture** — Data layer, model layer, retrieval strategy, and response generation
+3. **Engineering Trade-offs** — Design decisions and alternative approaches considered
+4. **Results** — Quantitative evaluation and qualitative analysis
