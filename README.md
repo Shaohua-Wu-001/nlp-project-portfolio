@@ -1,31 +1,62 @@
-# NLP Independent Project Portfolio
+# NLP Project Portfolio
 
-這個 repository 整理了 5 個過去關於自然語言處理(Natural Language Processing) 專案。
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://langchain.com)
+
+Five independent NLP projects spanning core topics in natural language processing — from classical word embeddings to modern retrieval-augmented generation. Each project includes a complete implementation, reproducible pipeline, and written report.
+
+---
 
 ## Projects
 
-| Folder | Project Focus | Deliverables |
-| --- | --- | --- |
-| `project-01-word-analogy` | Word Analogy and Embedding Analysis | pipeline code, requirements, report |
-| `project-02-arithmetic-as-language` | Arithmetic as a Language (character-level sequence modeling) | model code, requirements, report |
-| `project-03-multi-output-learning` | Multi-output Learning with shared BERT backbone | training code, requirements, report, specification |
-| `project-04-rag-with-langchain` | Retrieval-Augmented Generation QA system | RAG code, requirements, experiment outputs, report |
-| `project-05-wattbot` | WattBot final project package | final report |
+| # | Project | Methods | Key Topics |
+|---|---------|---------|------------|
+| 01 | [Word Analogy](project-01-word-analogy/) | GloVe, Word2Vec, t-SNE | Word embeddings, analogy evaluation |
+| 02 | [Arithmetic as Language](project-02-arithmetic-as-language/) | LSTM seq2seq, autoregressive decoding | Character-level modeling, sequence generation |
+| 03 | [Multi-Output Learning](project-03-multi-output-learning/) | BERT, multi-task learning | Shared encoders, dual-head architectures |
+| 04 | [RAG with LangChain](project-04-rag-with-langchain/) | BM25, dense retrieval, cross-encoder | Hybrid retrieval, reranking, RAG |
+| 05 | [WattBot](project-05-wattbot/) | End-to-end QA system | Capstone project, full system design |
 
-## How To Read This Repo
+## Repository Structure
 
-1. 先進入任一專案資料夾。
-2. 打開該專案的 `README.md`，裡面有更詳細的背景、方法、工程拆解。
-3. 依照 README 的 step-by-step 試做流程，自己一步一步重跑與調整。
-
-## Layout
-
-```text
+```
 .
-├── project-01-word-analogy
-├── project-02-arithmetic-as-language
-├── project-03-multi-output-learning
-├── project-04-rag-with-langchain
-└── project-05-wattbot
+├── project-01-word-analogy/
+│   ├── word_analogy_pipeline.py
+│   ├── requirements.txt
+│   └── report.docx
+├── project-02-arithmetic-as-language/
+│   ├── arithmetic_sequence_model.py
+│   ├── requirements.txt
+│   └── report.docx
+├── project-03-multi-output-learning/
+│   ├── multi_output_bert.py
+│   ├── requirements.txt
+│   ├── specification.pdf
+│   └── report.docx
+├── project-04-rag-with-langchain/
+│   ├── rag_pipeline.py
+│   ├── requirements.txt
+│   ├── experiment_outputs.json
+│   └── report.docx
+└── project-05-wattbot/
+    └── report.pdf
 ```
 
+## Getting Started
+
+Each project is self-contained. Navigate to any project directory, install dependencies, and run the pipeline:
+
+```bash
+cd project-<number>-<name>
+pip install -r requirements.txt
+python <main_script>.py
+```
+
+Refer to the individual project READMEs for detailed instructions and expected outputs.
+
+## License
+
+MIT
